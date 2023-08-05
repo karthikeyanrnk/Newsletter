@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.line1 {
+  width: 100px;
+  height: 3px;
+  background-color: #24252f;
+  margin-top: 12px;
+}
+body {
+  background-color: rgb(254, 254, 254);
+}
+#container {
+  height: 400px;
+  width: 1220px;
+  background-color: rgb(244, 244, 244);
+}
+.header {
+  height: 105px;
+  width: 100%;
+}
+.main {
+  height: 191px;
+  width: 100%;
+  background-color: #ffffff;
+  /*padding: 24px 0 30px 0;*/
+}
+/*
+.contact_face {
+  width: 340px;
+
+  background-color: bisque;
+}*/
+.cont_left {
+  height: 191px;
+  width: 35px;
+  background-image: url(https://www.dropbox.com/s/rn95jljso7kav2r/image_box_left.jpg?dl=0);
+  background-repeat: no-repeat;
+  float: left;
+}
+/*.blank {
+  padding-left: 124px;
+  height: 191px;
+  background-color: #24252f;
+  float: left;
+}*/
+.contact_face {
+  height: 190px;
+  background-color: #24252f;
+  float: left;
+  padding-left: 124px;
+}
+.cont_cent {
+  width: 594px;
+  padding: 0 120px 0 119px;
+  float: left;
+}
+.mail {
+  margin: 10px 0 30px 0px;
+  float: left;
+}
+.mail p {
+  margin: 5px 0 10px 30px;
+  float: right;
+}
+a {
+  text-decoration: none;
+}
+.location {
+  margin: 5px 0 10px 0px;
+  float: left;
+}
+.location p {
+  margin: 5px 0 10px 30px;
+  float: right;
+}
